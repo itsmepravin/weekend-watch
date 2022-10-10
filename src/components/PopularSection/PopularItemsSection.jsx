@@ -18,7 +18,7 @@ const PopularItemsSection = ({ isLoading, popularItems }) => {
         </div>
       ) : (
         popularItems.map((element) => (
-          <div style={{ height: "26rem" }}>
+          <div style={{ height: "24rem" }}>
             <img src={`${baseUrl}/${element.poster_path}`} />
             <p>{element.title || element.name}</p>
             <p>

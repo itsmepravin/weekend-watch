@@ -8,7 +8,7 @@ import PopularSection from "./components/PopularSection/PopularSection";
 import ContactSection from "./components/ContactSection";
 import CopyrightSection from "./components/CopyrightSection";
 
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import SearchResults from "./components/SearchResults";
 
 function App() {

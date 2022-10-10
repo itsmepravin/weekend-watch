@@ -23,8 +23,9 @@ const ImageSlider = ({ slides, searchQuery, setSearchQuery }) => {
 
   return (
     <section className="slider">
-      <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-      <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+      {/* Removed Because I was informed it was not consistent with UI */}
+      {/* <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} /> */}
+      {/* <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} /> */}
       {slides.map((element, index) => (
         <div
           className={index === current ? "slide active" : "slide"}

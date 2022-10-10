@@ -2,8 +2,8 @@
   top: 0px;
   left: 0px;
   height: 70px;
-  padding-right: 9rem;
-  padding-left: 9rem;
+  padding-right: 6.5rem;
+  padding-left: 6.5rem;
   background: var(--navbar-bg);
   font-weight: 500;
   display: flex;
@@ -35,10 +35,9 @@
   }
 
   ul {
-    margin-left: 1rem;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 3.1rem;
 
     li {
       color: var(--color-white);

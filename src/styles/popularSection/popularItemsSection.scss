@@ -1,11 +1,12 @@
 #popularItemsSection {
   margin-top: 40px;
-  margin-right: 9rem;
-  margin-left: 9rem;
+  margin-right: 6.5rem;
+  margin-left: 6.5rem;
   display: flex;
   flex-wrap: nowrap;
   gap: 16px;
   overflow-x: hidden;
+  width: 85.2vw;
 
   .loadingContainer {
     display: flex;
@@ -29,11 +30,14 @@
 
   p {
     &:nth-child(2) {
+      font-weight: bold;
+      font-size: 0.9rem;
       color: var(--badges-grey);
     }
 
     &:nth-child(3) {
       color: var(--color-lightGrey);
+      font-size: 0.8rem;
     }
   }
 
@@ -41,8 +45,8 @@
     display: flex;
 
     .starIcon {
-      width: 1.5rem;
-      height: 1.5rem;
+      width: 1rem;
+      height: 1rem;
       color: var(--color-golden);
     }
   }
