@@ -1,0 +1,49 @@
+#popularItemsSection {
+  margin-top: 40px;
+  margin-right: 9rem;
+  margin-left: 9rem;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+  overflow-x: hidden;
+
+  .loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 26rem;
+
+    .loadingIcon {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  img {
+    width: 178px;
+    height: 239px;
+    border-radius: 6px;
+  }
+
+  p {
+    &:nth-child(2) {
+      color: var(--badges-grey);
+    }
+
+    &:nth-child(3) {
+      color: var(--color-lightGrey);
+    }
+  }
+
+  .ratings {
+    display: flex;
+
+    .starIcon {
+      width: 1.5rem;
+      height: 1.5rem;
+      color: var(--color-golden);
+    }
+  }
+}

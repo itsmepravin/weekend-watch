@@ -1,0 +1,81 @@
+#popularHeadingSection {
+  padding-right: 9rem;
+  padding-left: 9rem;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+
+  h3 {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--badges-grey);
+    margin-right: 23px;
+  }
+
+  #popularBadges {
+    display: flex;
+    position: relative;
+    background-color: var(--badges-bg);
+    border-radius: 19px;
+    font-size: 18px;
+    width: 16rem;
+    color: var(--badges-grey);
+
+    #streamingBadge {
+      z-index: 10;
+      color: var(--color-white);
+      padding: 6px 22px;
+      cursor: pointer;
+    }
+
+    #onTVBadge {
+      z-index: 10;
+      color: var(--color-black);
+      padding: 6px 22px;
+      cursor: pointer;
+      margin-left: 1.5rem;
+    }
+
+    .badgeBackdrop {
+      position: absolute;
+      background: var(--color-red);
+      z-index: 1;
+      width: 54%;
+      border-radius: 19px;
+      padding: 6px 22px;
+    }
+  }
+}
+
+.after {
+  transform: translateX(85%);
+  transition: 0.5s ease-in-out;
+}
+
+.initial {
+  transform: translateX(0%);
+  transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 992px) {
+  #popularHeadingSection {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+
+  #popularSection {
+    margin-top: -1rem;
+  }
+}
+
+@media (max-width: 878px) {
+  #popularSection {
+    margin-top: -4rem;
+  }
+}
+
+@media (max-width: 847px) {
+  #popularSection {
+    margin-top: -6rem;
+  }
+}

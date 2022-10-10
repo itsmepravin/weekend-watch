@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Rubik", sans-serif;
+}
+
+@font-face {
+  font-family: "GilroyExtraBold";
+  src: url("../Gilroy-ExtraBold.otf") format("otf");
+}
+
+:root {
+  --navbar-bg: #042541;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-red: #ec2227;
+  --placeholder-text: #6f6f6f;
+  --badges-bg: #e3e3e3;
+  --badges-grey: #3d3d52;
+  --color-lightGrey: #aaaaaa;
+  --contact-bg: #042541;
+  --icon-grey: #d1d5dc;
+  --color-golden: #eccd22;
+  --copyright-bg: #05345c;
+  --arrow-color: #d1d5dc;
+}
